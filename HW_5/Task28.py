@@ -11,7 +11,7 @@ b = int(input('Введите целое неотрицательное чисе
 
 def sum(a, b):
     if b == 0:
-       return (a)
+       return a
     return 1 + sum(a, b-1)
 
 print(f'{a} + {b} -> {sum(a, b)}')

@@ -12,6 +12,6 @@ b = int(input('Введите степень чисела: '))
 def degree(a, b):
     if b == 0:
         return 1
-    return (a * degree(a, b - 1))
+    return a * degree(a, b - 1)
 
 print(f'A = {a}, B = {b} -> {degree(a, b)}')
